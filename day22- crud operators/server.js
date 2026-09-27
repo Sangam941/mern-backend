@@ -67,7 +67,7 @@ app.post('/api', (req, res)=>{
     const data = products.push(newProduct)
 
     return res.status(201).json({message:"new product created successfully..."})
-
+ 
     // console.log(req.body)
     // const name = req.body.name
     // const desc = req.body.desc
